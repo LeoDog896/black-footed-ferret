@@ -26,18 +26,24 @@
         <p>It indicates the health of its parent environment, the grasslands, and its main prety, the prarie dog</p>
         <p>and helps over <span class="highlight"><b>130</b></span> species, providing services from population control to eagle food.</p>
 
-        <!-- <ul>
-            <li>
-                They were declared extinct in 1974, rediscovered in 1981, now there is very little genetic
-                diversity
-            </li>
-            <li>
-                Elizabeth Ann is a cloned black-footed ferret as a trailblazer for cloning for conservation
-                efforts by Revive & Restore to mitigate inbreeding (and thus inbreeding depression)
-            </li>
-        </ul> -->
-
         <h2>But, <span class="danger">what if...</span></h2>
+
+        <h1>Declared Extinct in 1974</h1>
+
+        <!-- TODO: various newspaper headers or something on the scroll view - make a svelte plugin for this? -->
+
+        <!-- TODO: fact check -->
+        <p>The only native species to (that part of) America</p>
+
+        <h2>Black-Footed Found (1981)</h2>
+
+        <p>One of the most successful from critically endangered to endangered - recovery efforts and...</p>
+
+        <h2>Elizabeth Ann - Cloned Black-Footed Ferret</h2>
+
+        <!-- TODO: picture of elizabeth ann -->
+
+        <p>Decrease in genetic diversity led to a demand in cloning, as without it, inbreeding depression would occur (which could have killed off this flagship species for good) - Cloning done by Revive and Restore</p>
     </main>
 </div>
 
