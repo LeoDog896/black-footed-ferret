@@ -3,6 +3,7 @@
     import Ferret from "$lib/ferret.jpg"
     // TODO: https://www.flickr.com/photos/nationalzoo/6056771856
     import Ferret2 from "$lib/ferret2.jpg"
+    import Elizabeth1 from "$lib/elizabeth1.jpg"
 </script>
 
 <svelte:head>
@@ -28,26 +29,41 @@
 
         <h2>But, <span class="danger">what if...</span></h2>
 
-        <h1>Declared Extinct in 1974</h1>
+        <h1>Declared Extinct (1974)</h1>
 
         <!-- TODO: various newspaper headers or something on the scroll view - make a svelte plugin for this? -->
 
         <!-- TODO: fact check -->
-        <p>The only native species to (that part of) America</p>
+        <p>The only native ferret species to Northwest America</p>
 
-        <h2>Black-Footed Found (1981)</h2>
+        <h1>Black-Footed Found (1981)</h1>
 
         <p>One of the most successful from critically endangered to endangered - recovery efforts and...</p>
 
         <h2>Elizabeth Ann - Cloned Black-Footed Ferret</h2>
 
-        <!-- TODO: picture of elizabeth ann -->
+        <img src={Elizabeth1} class="restricted" alt="Elizabeth Ann, a Black-footed ferret, staring at the camera with a ball in the background" />
 
-        <p>Decrease in genetic diversity led to a demand in cloning, as without it, inbreeding depression would occur (which could have killed off this flagship species for good) - Cloning done by Revive and Restore</p>
+        <p>
+            Because there were so few black-footed ferrets,
+            it caused a decrease in genetic diversity, starting to lead to inbreeding.
+            In turn, this inbreeding depression could have stopped the species for good.
+            However, <a href="https://reviverestore.org/">Revive and Restore</a>, a
+            biomedical company for good, went in to clone
+            this species to increase its genetic diversity.
+            Thus, the first cloned endangered animal, Elizabeth Ann, was born.
+        </p>
     </main>
 </div>
 
 <style>
+    .restricted {
+        width: 50%;
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 4rem;
+    }
+
     .ferret {
         color: #3F84E5;
     }
