@@ -9,10 +9,18 @@
     ]
 </script>
 
-<h1>Sources</h1>
+<main>
+    <h1>Sources</h1>
 
-<ul>
-    {#each links as link}
-        <li><a href={link}>{link}</a></li>
-    {/each}
-</ul>
+    <ul>
+        {#each links as link}
+            <li><a href={link}>{link}</a></li>
+        {/each}
+    </ul>
+</main>
+
+<style>
+    main {
+        margin: 2rem;
+    }
+</style>
