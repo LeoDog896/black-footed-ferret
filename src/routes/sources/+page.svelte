@@ -9,6 +9,10 @@
     ]
 </script>
 
+<svelte:head>
+    <title>Sources</title>
+</svelte:head>
+
 <main>
     <h1>Sources</h1>
 
