@@ -12,5 +12,7 @@
 <h1>Sources</h1>
 
 <ul>
-    <li></li>
+    {#each links as link}
+        <li><a href={link}>{link}</a></li>
+    {/each}
 </ul>
